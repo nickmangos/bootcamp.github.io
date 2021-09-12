@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test blog, do not open</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav><a href="../index.html">Leave this place</a></nav>
+    <header>
+      <h1>The workspace of Nick Mangos</h1>
+    </header>
+    <article>
+      <h2>Bad advice for positioning elements</h2>
+      <p>
+        Positioning elements is simple once you understand that of the
+        positioning properties of relative, absolute and fixed, in most
+        instances, you only need the fixed property. Combined with media
+        queries, you can have complete control of the placement of any element
+        on your page. Fixed positioning removes the element from the normal flow
+        of the document, instead fixing it relative to the initial containing
+        block, normally the body of the document.
+      </p>
+      <p>
+        You can see how with fixed positioning, you can dictate exactly where an
+        element is on a page. You don’t have to worry about elements affecting
+        one another as they are no longer in the normal flow of the document.
+      </p>
+      <p>
+        Absolute positioning is similar to fixed positioning in that it is
+        removed from the normal document flow, but is instead positioned
+        relative to the nearest positioned ancestor. This is problematic as
+        ideally you want the elements positioned relative to the body of the
+        document, but any children of a fixed element will be positioned
+        relative to it, if you use absolute positioning, so stick to
+        fixed positioning.
+      </p>
+      <p>
+        The last and worst of the positioning properties is the relative
+        property. With relative positioning, the element is left in the normal
+        flow of the document (I know…) and positioned relative to itself. The
+        space allowed for it in the document remains in place, no mater its
+        placement. You can see how this would quickly become unmanageable.
+      </p>
+    </article>
+    <footer></footer>
+  </body>
+</html>

@@ -19,7 +19,7 @@
       <h1>The workspace of Nick Mangos</h1>
     </header>
     <article>
-      <h2>javASCRIPT!</h2>
+      <h2>JavaScript and such</h2>
       <h3>An analogy to describe the differences between HTML and CSS</h3>
       <p>
         HTML (Hyper Text Markup Language) is the fundamental building block of
@@ -48,10 +48,10 @@
         real life, say I want to water all my house plants. The instruction to
         water a single plant might looks like this.
       </p>
-      <ol>
-        <li>Fill watering can with water.</li>
-        <li>Test soil to see if it is dry enough to require water.</li>
-        <li>If it is dry, pour in enough water to saturate the soil.</li>
+      <ol class="instructions">
+        <li class="new-item"><span>1. </span>Fill watering can with water.</li>
+        <li class="new-item"><span>2. </span>Test soil to see if it is dry enough to require water.</li>
+        <li class="new-item"><span>3. </span>If it is dry, pour in enough water to saturate the soil.</li>
       </ol>
       <p>
         With these instructions, you would water the plant if it needs it. If
@@ -61,11 +61,11 @@
         But say you wanted to water all of your plants. You can simply follow
         the second and third instructions for every plant in your house.
       </p>
-      <ol>
-        <li>Fill watering can with water.</li>
-        <li>Test soil to see if it is dry enough to require water.</li>
-        <li>If it is dry, pour in enough water to saturate the soil.</li>
-        <li>Repeat steps 2 and 3 for every plant.</li>
+      <ol class="instructions">
+        <li><span>1. </span>Fill watering can with water.</li>
+        <li><span>2. </span>Test soil to see if it is dry enough to require water.</li>
+        <li><span>3. </span>If it is dry, pour in enough water to saturate the soil.</li>
+        <li class="new-item"><span>4. </span>Repeat steps 2 and 3 for every plant.</li>
       </ol>
       <p>
         In Javascript, this would be called a loop. Instead of writing the same
@@ -91,15 +91,18 @@
         a child of the table, which in turn would be a child of the nursery.
       </p>
 
-      “Image of plant DOM”
+      <img src="/img/plant-dom.png" />
 
       <p>
         But in a webpage, the elements could be images, headings and paragraphs
         of text within a document. If a paragraph had a link, the link would be
         a child of the paragraph, which in turn would be a child of the webpage.
-        You can view the DOM of a webpage using something built into Web
-        Browsers called Dev Tools.
+        The actual DOM of a webpage is much more complex and can be viewed using
+        something built into Web Browsers called Dev Tools.
       </p>
+
+      <img src="/img/console-dom.png" />
+
       <h3>
         Explain the difference between accessing data from arrays and objects.
       </h3>

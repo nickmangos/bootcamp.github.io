@@ -72,6 +72,11 @@ img {
   max-width: 800px;
 }
 
+img.smaller{
+  width: 100%;
+  max-width: 600px;
+}
+
 .instructions {
   padding: 0;
   margin: 40px 0;

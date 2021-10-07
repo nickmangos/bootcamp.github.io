@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+article {
+  padding-bottom: 50px;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -52,6 +56,12 @@ h2 {
   font-size: 32px;
   font-weight: 400;
 }
+
+h2 span {
+  color: #ffe07a;
+}
+
+
 
 h3 {
   padding-top: 40px;
